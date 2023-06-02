@@ -1,0 +1,23 @@
+// require('../')init: docker-down-clear docker-pull build
+// restart: down up
+
+// up:
+// 	docker-compose -f docker-compose-dev.yml up
+
+// install-dep:
+// 	npm install --no-optional
+
+// down:
+// 	docker-compose -f docker-compose-dev.yml down --remove-orphans
+
+// build:
+// 	docker-compose -f docker-compose-dev.yml build --no-cache
+
+// docker-pull:
+// 	docker-compose -f docker-compose-dev.yml pull --include-deps
+
+// docker-down-clear:
+// 	docker-compose -f docker-compose-dev.yml down -v --remove-orphans
+
+// install-dep-dev:
+// 	docker-compose -f docker-compose-dev.yml run --rm eendorsements-dev npm install --silent
